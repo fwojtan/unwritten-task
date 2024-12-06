@@ -1,0 +1,13 @@
+[package]
+name = "unwritten-task"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.9"
+dotenv = "0.15.0"
+openssl = "0.10.68"
+polars = { version = "0.44.2", features = ["lazy"] }
+postgres-openssl = "0.5.0"
+tokio = { version = "1.42.0", features = ["rt-multi-thread"] }
+tokio-postgres = "0.7.12"
